@@ -11,7 +11,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8333 react-scripts start",
     "stop": "taskkill -F -IM node.exe",
     "build": "react-scripts build",
     "test": "react-scripts test",
